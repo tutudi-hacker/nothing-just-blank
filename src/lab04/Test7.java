@@ -1,5 +1,4 @@
 package lab04;
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -7,20 +6,17 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-
 public class Test7 {
     static class Student {
         String originalLine;
         String gender;
         String group;
-
         Student(String originalLine, String gender, String group) {
             this.originalLine = originalLine;
             this.gender = gender;
             this.group = group;
         }
     }
-
     public static void main(String[] args) {
         ArrayList<Student> list = new ArrayList<>();
         String header = "";
