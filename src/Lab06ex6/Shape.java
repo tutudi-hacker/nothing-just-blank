@@ -1,4 +1,4 @@
-p
+package Lab06ex6;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -61,5 +61,5 @@ class Triangle extends Shape {
         return 0.5 * base * height;
     }
 }
-ackage Lab06ex6;
+
 
